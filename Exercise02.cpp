@@ -17,11 +17,12 @@ int main() {
    // 1. Create a dynamic Rectangle type variable (pointer)
     Rectangle * r;
    // 2. Create a dynamic Rectangle Object set the length and width that was input from the keyboard
-  r =  new Rectangle(20,10);
+  r =  new Rectangle(length,width);
    // 3. Create a dynamic Circle type variable (pointer)
     Circle * c;
+    
    // 4. Create a dynamic Circle Object set radius that was input from the keyboard
-   c = new Circle(7);
+   c = new Circle(radius);
    // 5. Call the display method of the Rectangle Object
    cout << "Area of the rectangle is "<< r-> calcArea()<< endl;
    // 6. Call the display method of the Circle Object
